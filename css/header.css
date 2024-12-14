@@ -1,0 +1,16 @@
+@import url(variaveis.css);
+/*nav*/
+
+/*carrosel*/
+.banners{
+    width: 100%;
+    height: calc(100vh - 71px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.texto-cor{
+    color: var(--cor-segundaria);
+}

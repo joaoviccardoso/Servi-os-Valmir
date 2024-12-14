@@ -1,0 +1,46 @@
+@import url(variaveis.css);
+
+body{
+    display: grid;
+    grid-template-rows:71px calc(100vh - 71px) 100vh;
+    grid-template-areas:
+        "nav" 
+        "home"
+        "cards"
+    ;
+    font-family: var(--titulos);
+    color: var(--cor-letras);
+}
+
+p, h1, h2, h3, h4, h5{
+    color: var(--cor-letras);
+}
+
+.btn{
+    width: 8rem;
+    border-radius: 15px;
+}
+
+.btnSeda{
+    display: flex;
+    align-items: center;
+    background-color: var(--cor-segundaria);
+    border-radius: 15px;
+    padding: .2rem;
+}
+
+header{
+    grid-area: nav;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    z-index: 1000; 
+    background-color: var(--cor-primaria); 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.carousel{
+    grid-area: home;
+}
+
