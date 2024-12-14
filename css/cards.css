@@ -7,6 +7,14 @@
     gap: 2.2rem;
 }
 
+.container-frase{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
 .card-body{
     display: grid;
     grid-template-rows: 12% 20% 60% 8%;
