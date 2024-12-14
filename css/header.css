@@ -14,3 +14,11 @@
 .texto-cor{
     color: var(--cor-segundaria);
 }
+
+.btnSeda{
+    display: flex;
+    align-items: center;
+    background-color: var(--cor-segundaria);
+    border-radius: 15px;
+    padding: .2rem;
+}

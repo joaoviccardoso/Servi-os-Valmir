@@ -1,5 +1,6 @@
 :root{
     --titulos:'Roboto', sans-serif;
+    --font-text: 'Open Sans', sans-serif;
     --cor-primaria:#fcfcfc;
     --cor-segundaria:#007FFF;
     --cor-letras:#000;

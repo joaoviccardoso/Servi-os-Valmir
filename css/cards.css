@@ -1,0 +1,50 @@
+@import url(variaveis.css);
+
+.container-cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.2rem;
+}
+
+.card-body{
+    display: grid;
+    grid-template-rows: 12% 20% 60% 8%;
+    grid-template-areas: 
+        "titulo"
+        "subtitulo"
+        "texto"
+        "link"
+    ;
+    background-color: var(--cor-segundaria);
+    border-radius: 6px;
+    font-family: var(--font-text);
+    color: var(--cor-primaria);
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    transition: .3s;
+}
+
+.card-body:hover{
+    transform: scale(1.05);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    
+}
+
+.card-title{
+    grid-area: titulo;
+}
+
+.subtitulo{
+    grid-area: subtitulo;
+    color: var(--cor-primaria);
+}
+
+.texto{
+    grid-area: texto;
+    color: var(--cor-primaria);
+}
+
+.cardLinkEntrarContado{
+    grid-area: link;
+    color: var(--cor-primaria);
+}
