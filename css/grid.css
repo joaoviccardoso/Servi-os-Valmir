@@ -2,11 +2,12 @@
 
 body{
     display: grid;
-    grid-template-rows:71px calc(100vh - 71px) 60vh;
+    grid-template-rows:71px calc(100vh - 71px) 60vh 80vh 100vh;
     grid-template-areas:
         "nav" 
         "home"
         "cards"
+        "sobreMin"
     ;
     font-family: var(--titulos);
     color: var(--cor-letras);
@@ -45,3 +46,9 @@ main{
     grid-area: cards;
 }
 
+.sobreMim{
+    grid-area: sobreMin;
+    background-color: var(--cor-segundaria);
+    border: 1px solid var(--cor-segundaria);
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}

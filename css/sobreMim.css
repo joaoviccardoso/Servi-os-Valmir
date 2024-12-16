@@ -1,0 +1,21 @@
+@import url(variaveis.css);
+
+.containerSobreMim{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerTextoSobreMim{
+    font-family: var(--font-text);
+}
+
+.tituloSobreMim{
+    color: var(--cor-primaria);
+}
+
+.textoSobreMim{
+    color: var(--cor-primaria);
+}
+
