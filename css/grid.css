@@ -2,16 +2,16 @@
 
 body{
     display: grid;
-    grid-template-rows:71px calc(100vh - 71px) 60vh 80vh 100vh;
+    grid-template-rows:71px calc(100vh - 71px) 60vh 80vh 80vh 250px;
     grid-template-areas:
         "nav" 
         "home"
         "cards"
         "sobreMin"
         "formulario"
+        "footer"
     ;
     font-family: var(--titulos);
-    color: var(--cor-letras);
     background-color: var(--cor-primaria);
 }
 
@@ -54,6 +54,11 @@ main{
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 }
 
-.formulario{
+.container-formulario{
     grid-area: formulario;
+}
+
+footer{
+    grid-area: footer;
+    background-color: var(--cor-segundaria);
 }

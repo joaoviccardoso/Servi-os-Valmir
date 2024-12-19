@@ -1,2 +1,21 @@
 @import url(variaveis.css);
 
+.formulario{
+    border: 1px solid var(--cor-bordar);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 12px;
+    padding: 1.5rem;
+}
+
+.img-contado{
+    width: 55px;
+}
+
+.titulo-formulario{
+    font-family: var( --font-text);
+}
+
+.texto-contato{
+    font-family: var(--font-text);
+    font-weight: 400;
+}

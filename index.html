@@ -56,7 +56,7 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="./img/slider.jpg" class="d-block w-100 banners" alt="...">
+            <img src="./img/banner-img.png" class="d-block w-100 banners" alt="...">
             <div class="carousel-caption d-none d-md-block">
               <h5 class="fs-1">Cuidando da sua <span class="texto-cor">saúde</span> com dedicação e experiência.</h5>
               <p class="fs-4">Serviços de <span class="texto-cor">enfermagem especializados</span> em sua casa ou no hospital.</p>
@@ -99,6 +99,10 @@
     </section>
 
     <main>
+        <div class="container-frase mb-4">
+          <h2>Descubra Como Posso <span class="texto-cor">Cuidar de Você</span> e da Sua <span class="texto-cor">Família</span></h2>
+        </div>
+
         <div class="container-cards">
 
           <div class="card mb-3" style="width: 20rem; height: 19rem;">
@@ -150,23 +154,78 @@
       </div>
     </section>
 
-    <form action="" class="formulario d-flex justify-content-center align-items-center">
-      <div style="width: 32rem;">
-        <div class="container-form" class="mb-3">
-          <label for="exampleFormControlInput1" class="form-label mt-3">Nome</label>
-          <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nome">
-          <label for="exampleFormControlInput1" class="form-label mt-3">Email</label>
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-          <label for="exampleFormControlInput1" class="form-label mt-3">Telefone</label>
-          <input type="tel" class="form-control" id="exampleFormControlInput1" placeholder="(99)99999-9999">
-        </div>
-        <div class="mb-3">
-          <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-          <button type="button" class="btn btn-primary mt-3">Primary</button>
-        </div>
+    <section class="container-formulario d-flex flex-column justify-content-center align-items-center">
+
+      <div class="container" style="width: 30%;">
+        <h1>Entrar em Contado</h1>
+        <form target="_blank" action="https://formsubmit.co/pealq63@gmail.com" method="POST">
+          <div class="form-group">
+            <div class="form-row d-flex gap-3">
+              <div class="col">
+                <input type="text" name="name" class="form-control" placeholder="Nome Completo" required>
+              </div>
+              <div class="col">
+                <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+              </div>
+            </div>
+          </div>
+          <div class="form-group mt-3">
+            <textarea placeholder="Sua mensagem" class="form-control" name="message" rows="10" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary mt-2">Enviar Mensagem</button>
+        </form>
       </div>
-    </form>
+
+    <ul class="d-flex justify-content-around mt-5" style="width: 50vw;">
+      <li>
+        <a href="#" class="d-flex align-items-center justify-content-center">
+          <img src="./img/lugar-colocar.png" alt="imagem da localozação" class="img-contado me-3">
+          <p class="mb-0 texto-contato fs-5">Conchal-SP</p>
+        </a>
+      </li>
+      <li class="">
+        <a href="#" class="d-flex align-items-center justify-content-center">
+          <img src="./img/facebook.png" alt="facebook" class="img-contado me-3">
+          <p class="mb-0 texto-contato fs-5">Minha rede social</p>
+        </a>
+      </li>
+      <li>
+        <a href="#" class="d-flex align-items-center justify-content-center">
+          <img src="./img/whatsapp.png" alt="Entre em contado pelo whatsapp" class="img-contado me-3">
+          <p class="mb-0 texto-contato fs-5">Entre em contado pelo whatsapp</p>
+        </a>
+      </li>
+    </ul>
+    </section>
+
+    <footer>
+      <ul class="d-flex flex-column">
+        <li class="sobreMimFooter">
+          <h3>Sobre Mim.</h3>
+        </li>
+        <li class="textoSobreMimFooter" style="width: 300px;">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Providenk adipisicing elit ipsum dolor.</p>
+        </li>
+        <li class="redesSocial">
+          <a href="#" class="d-flex align-items-center">
+            <img src="./img/linkedin.png" alt="linkedin" width="30">
+            <p class="nomeRedesSocial mb-0 mx-2">Linkedin</p>
+          </a>
+        </li>
+        <li class="redesSocial my-2">
+          <a href="#" class="d-flex align-items-center">
+            <img src="./img/instagram.png" alt="Instagram" width="30">
+            <p class="nomeRedesSocial mb-0 mx-2">Instagram</p>
+          </a>
+        </li>
+        <li class="redesSocial">
+          <a href="#" class="d-flex align-items-center">
+            <img src="./img/facebook (1).png" alt="FaceBook" width="30">
+            <p class="nomeRedesSocial mb-0 mx-2">FaceBook</p>
+          </a>
+        </li>
+      </ul>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
