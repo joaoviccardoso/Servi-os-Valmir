@@ -2,7 +2,7 @@
 
 body{
     display: grid;
-    grid-template-rows:71px 100vh 60vh 80vh 60vh 100px;
+    grid-template-rows:71px 85vh 60vh 80vh 60vh 100px;
     grid-template-areas:
         "nav" 
         "home"
