@@ -1,0 +1,35 @@
+@import url(variaveis.css);
+
+body{
+    display: grid;
+    grid-template-rows:71px calc(100vh - 151px) 80px;
+    grid-template-areas:
+        "nav" 
+        "main"
+        "footer"
+    ;
+    font-family: var(--titulos);
+}
+
+p, h1, h2, h3, h4, h5{
+    color: var(--cor-letras);
+}
+
+a{
+    text-decoration: none;
+}
+
+nav{
+    grid-area: nav;
+}
+
+main{
+    grid-area: main;
+    background-image: url(../img/fundoContado.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+footer{
+    grid-area: footer;
+}

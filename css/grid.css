@@ -30,13 +30,6 @@ a{
 
 header{
     grid-area: nav;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%; 
-    z-index: 1000; 
-    background-color: var(--cor-primaria); 
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
 }
 
 .carousel{
@@ -49,9 +42,6 @@ main{
 
 .sobreMim{
     grid-area: sobreMin;
-    background-color: var(--cor-segundaria);
-    border: 1px solid var(--cor-segundaria);
-    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 }
 
 .container-formulario{
@@ -60,5 +50,4 @@ main{
 
 footer{
     grid-area: footer;
-    background-color: var(--cor-segundaria);
 }
