@@ -1,0 +1,24 @@
+@media (min-width:250px) and (max-width: 591px){
+    body{
+        display: grid;
+        grid-template-rows:4.5rem 85vh auto auto auto 250px;
+        grid-template-areas:
+            "nav" 
+            "home"
+            "cards"
+            "sobreMin"
+            "formulario"
+            "footer"
+        ;
+        font-family: var(--titulos);
+        background-color: var(--cor-primaria);
+    }
+
+    .img_tresEnfermeiros{
+        width: 35rem;
+    }
+
+    .container-campo-formulario{
+        width: 100%;
+    }
+}

@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="./css/sobreMim.css">
     <link rel="stylesheet" href="./css/formulario.css">
     <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/responsivoIndex.css">
 </head>
 <body>
     <header>
@@ -104,7 +105,7 @@
           <h2>Descubra Como Posso <span class="texto-cor">Cuidar de Você</span> e da Sua <span class="texto-cor">Família</span></h2>
         </div>
 
-        <div class="container-cards">
+        <div class="container-cards d-flex align-items-center justify-content-center flex-column flex-sm-row gap-4">
 
           <div class="card mb-3" style="width: 20rem; height: 19rem;">
             <div class="card-body">
@@ -142,21 +143,21 @@
     </main>
 
     <section class="sobreMim">
-      <div class="containerSobreMim">
+      <div class="containerSobreMim d-flex justify-content-center align-items-center flex-column flex-sm-row">
         <div class="containerImg">
-          <img src="img/img-4.png" alt="tres enfermeiros">   
+          <img src="img/img-4.png" alt="tres enfermeiros" class="img_tresEnfermeiros">   
         </div>
         <div class="containerTextoSobreMim" style="width: 40rem;">
-          <h2 class="tituloSobreMim fs-1">Sobre mim.</h2>
-          <p class="textoSobreMim">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum similique magnam quod animi, ex architecto debitis, incidunt amet eligendi quia dolor nesciunt inventore, accusantium deserunt cumque consequatur dolore fuga sunt?</p>
-          <p class="textoSobreMim">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum molestias et delectus reiciendis officia, modi nisi atque quibusdam at, libero, provident obcaecati praesentium quam repellendus necessitatibus molestiae dolore architecto. Corrupti.</p>
+          <h2 class="tituloSobreMim m-3 fs-1">Sobre mim.</h2>
+          <p class="textoSobreMim m-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum similique magnam quod animi, ex architecto debitis, incidunt amet eligendi quia dolor nesciunt inventore, accusantium deserunt cumque consequatur dolore fuga sunt?</p>
+          <p class="textoSobreMim m-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum molestias et delectus reiciendis officia, modi nisi atque quibusdam at, libero, provident obcaecati praesentium quam repellendus necessitatibus molestiae dolore architecto. Corrupti.</p>
           <button type="button" class="btn btn-outline-info">Saber mais</button>
         </div>
       </div>
     </section>
 
-    <section class="container-formulario d-flex justify-content-center align-items-center">
-      <div class="container d-flex justify-content-center align-items-center" style="width: 40%;">
+    <section class="container-formulario d-flex justify-content-center">
+      <div class="container-campo-formulario d-flex justify-content-center align-items-center flex-column flex-sm-row m-3" style="width: 40%;">
         <form target="_blank" action="https://formsubmit.co/pealq63@gmail.com" method="POST">
           <h1 class="fs-2 fw-bold">Entrar em Contado</h1>
           <div class="form-group">
@@ -175,7 +176,7 @@
           <button type="submit" class="btn btn-primary mt-2">Enviar Mensagem</button>
         </form>
 
-        <ul class="ulHorarioDeTrabalho" style="width: 70%;">
+        <ul class="ulHorarioDeTrabalho" style="width: 100%;">
           <li class="tituloHorarioDeTrabalho fs-2 fw-bold">Horario de Trabalho.</li>
           <li class="liHorarioDeTrabalho fs-5">Domingo, entrar em contado</li>
           <li class="liHorarioDeTrabalho fs-5">Segunda-feira, 08:00 as 17:00</li>
@@ -185,12 +186,10 @@
           <li class="liHorarioDeTrabalho fs-5">Sábado 08:00 as 12:00</li>
         </ul>
       </div>
-
-      
     </section>
 
     <footer class="d-flex align-items-center justify-content-center">
-      <ul class="d-flex justify-content-around gap-3" style="width: 60vw;">
+      <ul class="d-flex justify-content-around gap-3" style="width: 100vw;">
         <li>
           <a href="#" class="d-flex align-items-center justify-content-center">
             <img src="./img/lugar-colocar.png" alt="imagem da localozação" class="img-contado me-3">
