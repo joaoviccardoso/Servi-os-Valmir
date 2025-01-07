@@ -12,7 +12,8 @@ header{
 /*carrosel*/
 .banners{
     width: 100%;
-    height: calc(100vh - 71px);
+    height: 85vh;
+    background-image: url(../img/banner-img.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

@@ -1,11 +1,18 @@
 @import url(variaveis.css);
-
-.formulario{
-    border: 1px solid var(--cor-bordar);
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    border-radius: 12px;
-    padding: 1.5rem;
+.container-formulario{
+    background-image: url(../img/fundoContado.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom left;
 }
+
+.container-campo-formulario{
+    background-color: var(--cor-primaria);
+    border: 1px solid var(--cor-bordar);
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
 
 .img-contado{
     width: 55px;
