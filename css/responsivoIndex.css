@@ -31,5 +31,9 @@
         background-attachment: fixed;
     }
 
+    .container-campo-formulario{
+        width: 70%;
+    }
+
     
 }

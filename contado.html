@@ -18,10 +18,11 @@
     <link rel="stylesheet" href="./cssContado/gridContado.css">
     <link rel="stylesheet" href="./cssContado/mainContainer.css">
     <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./cssContado/responsivoMobileContado.css">
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-expand-lg" style="width: auto;">
             <div class="container-fluid">
                 <a class="navbar-brand fs-3 fw-bold" href="#"><span class="texto-cor">Val</span>mir</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -48,58 +49,58 @@
     </header>
 
     <main class="d-flex align-items-center justify-content-center">
-        <div class="container d-flex justify-content-center align-items-center" style="width: 40%;">
-            <form class="p-3" target="_blank" action="https://formsubmit.co/pealq63@gmail.com" method="POST">
-              <h1 class="fs-2 fw-bold">Entrar em Contado</h1>
-              <div class="form-group">
-                <div class="form-row d-flex gap-3">
-                  <div class="col">
-                    <input type="text" name="name" class="form-control" placeholder="Nome Completo" required>
-                  </div>
-                  <div class="col">
-                    <input type="email" name="email" class="form-control" placeholder="Email Address" required>
-                  </div>
-                </div>
+      <div class="container-campo-formulario d-flex justify-content-center align-items-center flex-column flex-sm-row my-5">
+        <form target="_blank" action="https://formsubmit.co/pealq63@gmail.com" method="POST" class="formulario p-3">
+          <h1 class="fs-2 fw-bold">Entrar em Contado</h1>
+          <div class="form-group">
+            <div class="form-row d-flex gap-3">
+              <div class="col">
+                <input type="text" name="name" class="form-control" placeholder="Nome Completo" required>
               </div>
-              <div class="form-group mt-3">
-                <textarea placeholder="Sua mensagem" class="form-control" name="message" rows="10" required></textarea>
+              <div class="col">
+                <input type="email" name="email" class="form-control" placeholder="Email Address" required>
               </div>
-              <button type="submit" class="btn btn-primary mt-2">Enviar Mensagem</button>
-            </form>
-    
-            <ul class="ulHorarioDeTrabalho d-flex flex-column align-items-center" style="width: 70%;">
-              <li class="tituloHorarioDeTrabalho fs-2 fw-bold">Horario de Trabalho.</li>
-              <li class="liHorarioDeTrabalho fs-5">Domingo, entrar em contado</li>
-              <li class="liHorarioDeTrabalho fs-5">Segunda-feira, 08:00 as 17:00</li>
-              <li class="liHorarioDeTrabalho fs-5">Terça-feira, 08:00 as 17:00</li>
-              <li class="liHorarioDeTrabalho fs-5">Quinta-feira 08:00 as 17:00</li>
-              <li class="liHorarioDeTrabalho fs-5">Sexta-feira 08:00 as 17:00</li>
-              <li class="liHorarioDeTrabalho fs-5">Sábado 08:00 as 12:00</li>
-            </ul>
+            </div>
           </div>
+          <div class="form-group mt-3">
+            <textarea placeholder="Sua mensagem" class="form-control" name="message" rows="10" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary mt-2">Enviar Mensagem</button>
+        </form>
+
+        <ul class="ulHorarioDeTrabalho px-2" style="width: 100%;">
+          <li class="tituloHorarioDeTrabalho fs-2 fw-bold">Horario de Trabalho.</li>
+          <li class="liHorarioDeTrabalho fs-5">Domingo, entrar em contado</li>
+          <li class="liHorarioDeTrabalho fs-5">Segunda-feira, 08:00 as 17:00</li>
+          <li class="liHorarioDeTrabalho fs-5">Terça-feira, 08:00 as 17:00</li>
+          <li class="liHorarioDeTrabalho fs-5">Quinta-feira 08:00 as 17:00</li>
+          <li class="liHorarioDeTrabalho fs-5">Sexta-feira 08:00 as 17:00</li>
+          <li class="liHorarioDeTrabalho fs-5">Sábado 08:00 as 12:00</li>
+        </ul>
+      </div>
     </main>
 
     <footer class="d-flex align-items-center justify-content-center">
-        <ul class="d-flex justify-content-around gap-3" style="width: 60vw;">
-          <li>
-            <a href="#" class="d-flex align-items-center justify-content-center">
-              <img src="./img/lugar-colocar.png" alt="imagem da localozação" class="img-contado me-3">
-              <p class="mb-0 texto-contato fs-5">Conchal-SP</p>
-            </a>
-          </li>
-          <li class="">
-            <a href="#" class="d-flex align-items-center justify-content-center">
-              <img src="./img/facebook.png" alt="facebook" class="img-contado me-3">
-              <p class="mb-0 texto-contato fs-5">Minha rede social</p>
-            </a>
-          </li>
-          <li>
-            <a href="https://wa.me/5519992861087" target="_blank" class="d-flex align-items-center justify-content-center">
-              <img src="./img/whatsapp.png" alt="Entre em contado pelo whatsapp" class="img-contado me-3">
-              <p class="mb-0 texto-contato fs-5">Entre em contado pelo whatsapp</p>
-            </a>
-          </li>
-        </ul>
+      <ul class="d-flex justify-content-center align-items-center gap-2" style="width: 100vw;">
+        <li>
+          <a href="#" class="d-flex align-items-center justify-content-center">
+            <img src="./img/lugar-colocar.png" alt="imagem da localozação" class="img-contado me-3">
+            <p class="mb-0 texto-contato fs-md-5 ">Conchal-SP</p>
+          </a>
+        </li>
+        <li class="">
+          <a href="#" class="d-flex align-items-center justify-content-center">
+            <img src="./img/facebook.png" alt="facebook" class="img-contado me-3">
+            <p class="mb-0 texto-contato fs-md-5">rede social</p>
+          </a>
+        </li>
+        <li>
+          <a href="https://wa.me/5519992861087" target="_blank" class="d-flex align-items-center justify-content-center">
+            <img src="./img/whatsapp.png" alt="Entre em contado pelo whatsapp" class="img-contado me-3">
+            <p class="mb-0 texto-contato fs-md-5">whatsapp</p>
+          </a>
+        </li>
+      </ul>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>

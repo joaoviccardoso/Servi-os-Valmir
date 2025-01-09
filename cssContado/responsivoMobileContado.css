@@ -1,0 +1,16 @@
+@import url(variaveis.css);
+
+@media (min-width:250px) and (max-width: 591px){
+    .img-contado{
+        width: 25px;
+    }
+
+    .texto-contato{
+        font-size: 12px;
+    }
+
+    .container-campo-formulario{
+        width: 70%;
+        height: auto;
+    }
+}
