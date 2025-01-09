@@ -1,8 +1,19 @@
 @import url(variaveis.css);
 
 @media (min-width:250px) and (max-width: 591px){
+    body{
+        display: grid;
+        grid-template-rows:71px auto 120px;
+        grid-template-areas:
+            "nav" 
+            "main"
+            "footer"
+        ;
+        font-family: var(--titulos);
+    }
+    
     .img-contado{
-        width: 25px;
+        width: 40px;
     }
 
     .texto-contato{
