@@ -1,11 +1,10 @@
 @media (min-width:250px) and (max-width: 591px){
     body{
         display: grid;
-        grid-template-rows:4rem 85vh auto auto auto 150px;
+        grid-template-rows:4rem 85vh 100vh auto 150px;
         grid-template-areas:
             "nav" 
             "home"
-            "cards"
             "sobreMin"
             "formulario"
             "footer"
@@ -15,7 +14,7 @@
     }
 
     .img_tresEnfermeiros{
-        width: 25rem;
+        width: 20rem;
     }
 
     .banners{

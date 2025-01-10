@@ -15,10 +15,9 @@
 }
 
 .tituloSobreMim{
-    color: var(--cor-primaria);
+    color: var(--cor-letras);
 }
 
 .textoSobreMim{
-    color: var(--cor-primaria);
+    color: var(--cor-letras);
 }
-

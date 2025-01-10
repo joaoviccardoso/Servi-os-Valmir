@@ -2,11 +2,10 @@
 
 body{
     display: grid;
-    grid-template-rows:71px 85vh 70vh 80vh 80vh 100px;
+    grid-template-rows:71px 85vh 80vh 80vh 100px;
     grid-template-areas:
         "nav" 
         "home"
-        "cards"
         "sobreMin"
         "formulario"
         "footer"
@@ -34,14 +33,6 @@ header{
 
 .banners{
     grid-area: home;
-}
-
-main{
-    grid-area: cards;
-    background-image: url(../img/fundoContado.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top right;
 }
 
 .sobreMim{
